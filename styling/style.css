@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 120%;
+
+    background: rgb(28, 28, 165);
+    background-image: url("https://media.istockphoto.com/photos/transparent-umbrella-under-rain-against-water-drops-splash-background-picture-id1257951336?b=1&k=20&m=1257951336&s=170667a&w=0&h=N_dkdVEznSiN43vNpVzjnnk8xUi4lg1IFK19JXxo5Zg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+
+.card {
+    background: rgb(5, 92, 146);
+    padding: 32px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 16px;
+    
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-Bar {
+    border: none;
+    outline: none;
+    padding: 6.4px 16px;
+    border-radius: 24px;
+    background: cornsilk;
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+button {
+    margin: 8px;
+    border-radius: 100%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: grey;
+}
+
+h1.temp {
+    margin: 0;
+}
