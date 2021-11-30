@@ -11,9 +11,9 @@ body {
     background-image: url("https://media.istockphoto.com/photos/transparent-umbrella-under-rain-against-water-drops-splash-background-picture-id1257951336?b=1&k=20&m=1257951336&s=170667a&w=0&h=N_dkdVEznSiN43vNpVzjnnk8xUi4lg1IFK19JXxo5Zg=");
     background-repeat: no-repeat;
     background-size: cover;
-    
-  
+
 }
+
 
 .card {
     background: rgb(5, 92, 146);
@@ -22,7 +22,7 @@ body {
     width: 100%;
     max-width: 420px;
     margin: 16px;
-    
+
 }
 
 
