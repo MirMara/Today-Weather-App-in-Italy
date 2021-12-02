@@ -39,7 +39,7 @@ main {
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
-    margin: 16px;
+    margin: 0 auto;
 
 }
 
@@ -105,4 +105,17 @@ footer p {
 footer a:link, a:active,
 a:visited {
     color: white;
+}
+
+
+/*Resposive section*/
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+
+
+    h1{
+        font-size: 1.5em;
+    }
+    
+        
 }
