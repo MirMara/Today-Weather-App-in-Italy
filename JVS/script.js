@@ -38,3 +38,32 @@ document.querySelector(".search-Bar").addEventListener("keyup", function (event)
         weather.search();
     }
 });
+
+
+/* Slide show*/
+
+const body = document.querySelector("body");
+
+function slideShow() {
+  setTimeout(function () {
+    body.style.backgroundImage = "url(https://images.unsplash.com/photo-1531352294718-fb57e1b4e148)";
+    setTimeout(function () {
+     body.style.backgroundImage = "url(https://images.unsplash.com/photo-1534425582704-65e021820688)";
+      setTimeout(function () {
+       body.style.backgroundImage = "url(https://images.unsplash.com/photo-1545148481-9b89ba700876?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80)";
+       setTimeout(function () {
+        body.style.backgroundImage = "url(https://www.pikon.com/wp-content/uploads/2020/03/How-to-make-your-SAP-system-compliant-with-the-Italian-SDI-E-Invoicing-updates-4-May-2020.png)";
+        setTimeout(function () {
+        body.style.backgroundImage = "url(https://images.unsplash.com/photo-1491383294311-b702fff30fc8)";
+        setTimeout(function () {
+        body.style.backgroundImage = "url(https://www.cosavedereagenova.it/wp-content/uploads/2020/07/aperitivo-a-genova.jpeg)";
+        slideShow();
+      }, 5000);
+    }, 5000);
+  }, 5000);
+}, 5000);
+}, 5000);
+}, 5000);
+}
+
+slideShow();
